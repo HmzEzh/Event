@@ -120,6 +120,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 6px 18px;
   }
 }
+@media (max-width: 1000px) {
+  #flex-con {
+    flex-wrap: wrap;
+  }
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1813,6 +1818,7 @@ section {
 
 #list2 li span,#list1 li span{
   color: #e03a3c;
+  font-weight: 600;
 }
 #list1_title,#list2_title{
   padding: 15px 0;
@@ -1821,8 +1827,9 @@ section {
   margin-bottom: 10px;
 }
 #list1 li,#list2 li{
-  margin: 10px;
+  margin: 15px;
   list-style: none;
+  line-height: 1.5;
 }
 #list1,#list2{
   border: 1px solid #e03a3c;
@@ -1844,4 +1851,14 @@ section {
   line-height:1.8;
   padding: 25px 0 0 0;
   margin-bottom: 5px;
+}
+#flex-con{
+  display: flex;
+}
+#faq1,#faq2,#faq3,#faq4{
+  margin-left: 40px;
+  line-height: 1,3;
+}
+#faq4 a {
+  margin-left: 30px;
 }
